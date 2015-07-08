@@ -1,0 +1,183 @@
+
+                <div id="first-level-nav-container" class="column sixteen">
+                    <div id="iw-home-button"><a href="http://www.informationweek.com" target="_blank" title="InformationWeek Home"><img src="http://img.deusm.com/darkreading/iwk-btn.png" alt="To InformationWeek"></a></div>
+                    <div id="first-level-nav">
+                        <div class="first-level-nav-item"><b><a href="http://createyournextcustomer.techweb.com/contact-us/" class="color-link strong" target="_blank" title="Advertise With Us">Advertise With Us</a></b></div>
+                        <div class="first-level-nav-item"><a href="/document.asp?doc_id=1113937" class="color-link" title="About Us">About Us</a></div>
+                        <div class="first-level-nav-item"><a href="/document.asp?doc_id=1113937#contact" class="color-link" title="Contact Us">Contact Us</a></div>
+                        <div class="first-level-nav-item"><a href="http://www.darkreading.com/digitalsubscription?mc=MP_DR_DI_DRDIGSUB_CRNT" class="color-link" title="Digital Subscription">Digital Subscription</a></div>
+                        <div id="loginLinks"></div>
+                    </div>
+                    <div id="mobile-level-nav">
+                        <div style="float: right;">
+                            <div class="mobile-nav-item"><a href="javascript:void(0)" title="Profile" onclick="showMobileIconOverlay('profile')"><img src="http://img.deusm.com/darkreading/DR_mobile_User_nav.png"></a></div>
+                            <div class="spacer" style="float: left; width: 10px;"><img src="http://img.deusm.com/images/spacer.gif" width="10" height="24" style="border: 0;"></div>
+                            <div class="mobile-nav-item"><a href="javascript:void(0)" title="Search" onclick="showMobileIconOverlay('search')"><img src="http://img.deusm.com/darkreading/DR_search.png"></a></div>
+                            <div class="spacer" style="float: left; width: 10px;"><img src="http://img.deusm.com/images/spacer.gif" width="10" height="24" style="border: 0;"></div>
+                            <div class="mobile-nav-item"><a href="javascript:void(0)" title="RSS" onclick="showMobileIconOverlay('rss')"><img src="http://img.deusm.com/darkreading/DR_mobile_SM.png"></a></div>
+                        </div>
+                        <div class="mobile-nav-item" style="width: 8.416666em;"><a href="javascript:void(0)" title="Menu" onclick="showMobileIconOverlay('nav')"><img src="http://img.deusm.com/darkreading/DR-sections-nav.png"></a></div>
+                    </div>
+                </div>
+                <!-- Mobile Menus //-->
+                <div id="mobile-menu-nav" name="nav" class="mobile-menu box-shadow">
+                    <div class="mobile-close"><a href="javascript:void(0)" onclick="closeMobileOverlayMenu('nav')" title="Close"><img src="http://img.deusm.com/darkreading/mobile_close.jpg" style="width: 31px; height: 29px; border: 0;"></a></div>
+                    <nav>
+                        <ul class="mobile-menu-main">
+                            <li><a href="/" title="Home">Home</a></li>
+                            <li><a href="/archives.asp?newsandcommentary=yes" title="News &amp; Commentary">News &amp; Commentary</a></li>
+                            <li><a href="/authors.asp" title="Authors">Authors</a></li>
+                            <li><a href="/archives.asp?section_id=316" title="Slideshows">Slideshows</a></li>
+                            <li><a href="videos.asp" title="Video">Video</a></li>
+                            <li><a href="http://reports.informationweek.com/search?search=security" title="Reports" target="_blank">Reports</a></li>
+                            <li><a href="http://www.informationweek.com/whitepaper/Security" target="_blank" title="White Papers">White Papers</a></li>
+                            <li><a href="/document.asp?doc_id=1127669" title="Events">Events</a></li>
+                            <li><a href="/black-hat.asp" title="Black Hat">Black Hat</a></li>
+                            <li><a href="/attacks-breaches.asp" title="Attacks/Breaches">Attacks/Breaches</a></li>
+                            <li><a href="/application-security.asp" title="Application Security">App Sec</a></li>
+                            <li><a href="/cloud.asp" title="Cloud">Cloud</a></li>
+                            <li><a href="/endpoint.asp" title="Endpoint">Endpoint</a></li>
+                            <li><a href="/mobile.asp" title="Mobile">Mobile</a></li>
+                            <li><a href="/perimeter.asp" title="Perimteter">Perimeter</a></li>
+                            <li><a href="/risk.asp" title="Risk">Risk</a></li>
+                            <li><a href="/operations.asp" title="Operations">Operations</a></li>
+                            <li><a href="/analytics.asp" title="Analytics">Analytics</a></li>
+                            <li><a href="/vulnerabilities-threats.asp" title="Vulnerabilities &amp; Threats">Vulns/Threats</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="mobile-menu-profile" name="profile" class="mobile-menu box-shadow">
+                    <div class="mobile-close"><a href="javascript:void(0)" onclick="closeMobileOverlayMenu('profile')" title="Close"><img src="http://img.deusm.com/darkreading/mobile_close.jpg" style="width: 31px; height: 29px; border: 0;"></a></div>
+                    <nav>
+                        <ul id="loginLinksMobile" class="mobile-menu-main">
+                            
+                            <li><a href="/document.asp?doc_id=1113937" title="About Us">About Us</a></li>
+                            <li><a href="/document.asp?doc_id=1113937#contact" title="Contact Us">Contact Us</a></li>
+                            <li><a href="http://www.darkreading.com/digitalsubscription?mc=MP_DR_DI_DRDIGSUB_CRNT" title="Digital Subscription">Digital Subscription</a></li>
+                            <li><a href="http://createyournextcustomer.techweb.com/contact-us/" target="_blank" title="Advertise with Us">Advertise with Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="mobile-menu-search" name="search" class="mobile-menu box-shadow">
+                    <div class="mobile-close"><a href="javascript:void(0)" onclick="closeMobileOverlayMenu('search')" title="Close"><img src="http://img.deusm.com/darkreading/mobile_close.jpg" style="width: 31px; height: 29px; border: 0;"></a></div>
+                    <form name="template_search_a" id="template_search_a" action="/search.asp" method="post" style="margin: 0; padding: 0;">
+                        <div style="height: 2.333333em; overflow: hidden; border: 1px solid #aaa;">
+                            <input id="q" name="q" value="" type="text" maxlength="250" placeholder="Search Dark Reading">
+                            <div style="float: right; background: url(http://img.deusm.com/darkreading/DR_search.png) no-repeat 0 -1px; width: 2.5em; height: 2.333333em;">
+                                <a href="javascript:GetObject('template_search_a').submit();" title="Search"><img name="search_button" id="search_button" src="http://img.deusm.com/images/spacer.gif" width="30" height="28" style="border: 0;"></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="mobile-menu-rss" name="rss" class="mobile-menu box-shadow">
+                    <div class="mobile-close"><a href="javascript:void(0)" onclick="closeMobileOverlayMenu('rss')" title="Close"><img src="http://img.deusm.com/darkreading/mobile_close.jpg" style="width: 31px; height: 29px; border: 0;"></a></div>
+                    <nav>
+                        <ul class="mobile-menu-main">
+                            <li><a href="https://www.facebook.com/darkreadingcom" title="Facebook">Facebook</a></li>
+                            <li><a href="http://twitter.com/DarkReading" title="Twitter">Twitter</a></li>
+                            <li><a href="http://www.linkedin.com/groups?home=&amp;gid=3193466&amp;trk=anet_ug_hm" title="LinkedIn">LinkedIn</a></li>
+                            <li><a href="https://plus.google.com/+darkreading " title="Google">Google+</a></li>
+                            <li><a href="/rss_feeds.asp" title="RSS">RSS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="divsplitter" style="height: 1.666em;"></div>
+                <div class="ad-leaderboard">
+                    <!-- Beginning Sync AdSlot  -->
+<div id="div-gpt-ad-961777897907396673-3">
+ <script type="text/javascript">
+  googletag.display('div-gpt-ad-961777897907396673-3');
+ </script><div id="div-gpt-ad-961777897907396673-3_ad_container">
+<script src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&amp;c=28&amp;pli=9856182&amp;PluID=0&amp;w=728&amp;h=90&amp;ncu=$$http://adclick.g.doubleclick.net/aclk?sa=L&amp;ai=BuHjv6NzLVJ-7OMLapgP9sYHgDoyEnvkFAAAAEAEg_NGRITgAWJSkqo2kAWD9uJCB6AOyARN3d3cuZGFya3JlYWRpbmcuY29tugEJZ2ZwX2ltYWdlyAEJ2gEbaHR0cDovL3d3dy5kYXJrcmVhZGluZy5jb20vmAKImAXAAgLgAgDqAhovMjQ0MS9EYXJrUmVhZGluZy9ob21lcGFnZfgC-dEekAOkA5gDpAOoAwHgBAGgBhY&amp;num=0&amp;sig=AOD64_2lEDElrK9k44kEDabsSn6xDeaMOQ&amp;client=ca-pub-3676602997119685&amp;adurl=$$&amp;ord=1959024932&amp;ucm=true"></script></div></div></div>-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+<div id="header-full" class="site-padding">
+                <div id="first-level-nav-container" class="column sixteen">
+                    <div id="iw-home-button"><a href="http://www.informationweek.com" target="_blank" title="InformationWeek Home"><img src="http://img.deusm.com/darkreading/iwk-btn.png" alt="To InformationWeek"></a></div>
+                    <div id="first-level-nav">
+                        <div class="first-level-nav-item"><b><a href="http://createyournextcustomer.techweb.com/contact-us/" class="color-link strong" target="_blank" title="Advertise With Us">Advertise With Us</a></b></div>
+                        <div class="first-level-nav-item"><a href="/document.asp?doc_id=1113937" class="color-link" title="About Us">About Us</a></div>
+                        <div class="first-level-nav-item"><a href="/document.asp?doc_id=1113937#contact" class="color-link" title="Contact Us">Contact Us</a></div>
+                        <div class="first-level-nav-item"><a href="http://www.darkreading.com/digitalsubscription?mc=MP_DR_DI_DRDIGSUB_CRNT" class="color-link" title="Digital Subscription">Digital Subscription</a></div>
+                        <div id="loginLinks"></div>
+                    </div>
+                    <div id="mobile-level-nav">
+                        <div style="float: right;">
+                            <div class="mobile-nav-item"><a href="javascript:void(0)" title="Profile" onclick="showMobileIconOverlay('profile')"><img src="http://img.deusm.com/darkreading/DR_mobile_User_nav.png"></a></div>
+                            <div class="spacer" style="float: left; width: 10px;"><img src="http://img.deusm.com/images/spacer.gif" width="10" height="24" style="border: 0;"></div>
+                            <div class="mobile-nav-item"><a href="javascript:void(0)" title="Search" onclick="showMobileIconOverlay('search')"><img src="http://img.deusm.com/darkreading/DR_search.png"></a></div>
+                            <div class="spacer" style="float: left; width: 10px;"><img src="http://img.deusm.com/images/spacer.gif" width="10" height="24" style="border: 0;"></div>
+                            <div class="mobile-nav-item"><a href="javascript:void(0)" title="RSS" onclick="showMobileIconOverlay('rss')"><img src="http://img.deusm.com/darkreading/DR_mobile_SM.png"></a></div>
+                        </div>
+                        <div class="mobile-nav-item" style="width: 8.416666em;"><a href="javascript:void(0)" title="Menu" onclick="showMobileIconOverlay('nav')"><img src="http://img.deusm.com/darkreading/DR-sections-nav.png"></a></div>
+                    </div>
+                </div>
+                <!-- Mobile Menus //-->
+                <div id="mobile-menu-nav" name="nav" class="mobile-menu box-shadow">
+                    <div class="mobile-close"><a href="javascript:void(0)" onclick="closeMobileOverlayMenu('nav')" title="Close"><img src="http://img.deusm.com/darkreading/mobile_close.jpg" style="width: 31px; height: 29px; border: 0;"></a></div>
+                    <nav>
+                        <ul class="mobile-menu-main">
+                            <li><a href="/" title="Home">Home</a></li>
+                            <li><a href="/archives.asp?newsandcommentary=yes" title="News &amp; Commentary">News &amp; Commentary</a></li>
+                            <li><a href="/authors.asp" title="Authors">Authors</a></li>
+                            <li><a href="/archives.asp?section_id=316" title="Slideshows">Slideshows</a></li>
+                            <li><a href="videos.asp" title="Video">Video</a></li>
+                            <li><a href="http://reports.informationweek.com/search?search=security" title="Reports" target="_blank">Reports</a></li>
+                            <li><a href="http://www.informationweek.com/whitepaper/Security" target="_blank" title="White Papers">White Papers</a></li>
+                            <li><a href="/document.asp?doc_id=1127669" title="Events">Events</a></li>
+                            <li><a href="/black-hat.asp" title="Black Hat">Black Hat</a></li>
+                            <li><a href="/attacks-breaches.asp" title="Attacks/Breaches">Attacks/Breaches</a></li>
+                            <li><a href="/application-security.asp" title="Application Security">App Sec</a></li>
+                            <li><a href="/cloud.asp" title="Cloud">Cloud</a></li>
+                            <li><a href="/endpoint.asp" title="Endpoint">Endpoint</a></li>
+                            <li><a href="/mobile.asp" title="Mobile">Mobile</a></li>
+                            <li><a href="/perimeter.asp" title="Perimteter">Perimeter</a></li>
+                            <li><a href="/risk.asp" title="Risk">Risk</a></li>
+                            <li><a href="/operations.asp" title="Operations">Operations</a></li>
+                            <li><a href="/analytics.asp" title="Analytics">Analytics</a></li>
+                            <li><a href="/vulnerabilities-threats.asp" title="Vulnerabilities &amp; Threats">Vulns/Threats</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="mobile-menu-profile" name="profile" class="mobile-menu box-shadow">
+                    <div class="mobile-close"><a href="javascript:void(0)" onclick="closeMobileOverlayMenu('profile')" title="Close"><img src="http://img.deusm.com/darkreading/mobile_close.jpg" style="width: 31px; height: 29px; border: 0;"></a></div>
+                    <nav>
+                        <ul id="loginLinksMobile" class="mobile-menu-main">
+                            
+                            <li><a href="/document.asp?doc_id=1113937" title="About Us">About Us</a></li>
+                            <li><a href="/document.asp?doc_id=1113937#contact" title="Contact Us">Contact Us</a></li>
+                            <li><a href="http://www.darkreading.com/digitalsubscription?mc=MP_DR_DI_DRDIGSUB_CRNT" title="Digital Subscription">Digital Subscription</a></li>
+                            <li><a href="http://createyournextcustomer.techweb.com/contact-us/" target="_blank" title="Advertise with Us">Advertise with Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="mobile-menu-search" name="search" class="mobile-menu box-shadow">
+                    <div class="mobile-close"><a href="javascript:void(0)" onclick="closeMobileOverlayMenu('search')" title="Close"><img src="http://img.deusm.com/darkreading/mobile_close.jpg" style="width: 31px; height: 29px; border: 0;"></a></div>
+                    <form name="template_search_a" id="template_search_a" action="/search.asp" method="post" style="margin: 0; padding: 0;">
+                        <div style="height: 2.333333em; overflow: hidden; border: 1px solid #aaa;">
+                            <input id="q" name="q" value="" type="text" maxlength="250" placeholder="Search Dark Reading">
+                            <div style="float: right; background: url(http://img.deusm.com/darkreading/DR_search.png) no-repeat 0 -1px; width: 2.5em; height: 2.333333em;">
+                                <a href="javascript:GetObject('template_search_a').submit();" title="Search"><img name="search_button" id="search_button" src="http://img.deusm.com/images/spacer.gif" width="30" height="28" style="border: 0;"></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="mobile-menu-rss" name="rss" class="mobile-menu box-shadow">
+                    <div class="mobile-close"><a href="javascript:void(0)" onclick="closeMobileOverlayMenu('rss')" title="Close"><img src="http://img.deusm.com/darkreading/mobile_close.jpg" style="width: 31px; height: 29px; border: 0;"></a></div>
+                    <nav>
+                        <ul class="mobile-menu-main">
+                            <li><a href="https://www.facebook.com/darkreadingcom" title="Facebook">Facebook</a></li>
+                            <li><a href="http://twitter.com/DarkReading" title="Twitter">Twitter</a></li>
+                            <li><a href="http://www.linkedin.com/groups?home=&amp;gid=3193466&amp;trk=anet_ug_hm" title="LinkedIn">LinkedIn</a></li>
+                            <li><a href="https://plus.google.com/+darkreading " title="Google">Google+</a></li>
+                            <li><a href="/rss_feeds.asp" title="RSS">RSS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="divsplitter" style="height: 1.666em;"></div>
+                <div class="ad-leaderboard">
+                    <!-- Beginning Sync AdSlot  -->
+<div id="div-gpt-ad-961777897907396673-3">
+ <script type="text/javascript">
+  googletag.display('div-gpt-ad-961777897907396673-3');
+ </script><div id="div-gpt-ad-961777897907396673-3_ad_container">
+<script src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&amp;c=28&amp;pli=9856182&amp;PluID=0&amp;w=728&amp;h=90&amp;ncu=$$http://adclick.g.doubleclick.net/aclk?sa=L&amp;ai=BuHjv6NzLVJ-7OMLapgP9sYHgDoyEnvkFAAAAEAEg_NGRITgAWJSkqo2kAWD9uJCB6AOyARN3d3cuZGFya3JlYWRpbmcuY29tugEJZ2ZwX2ltYWdlyAEJ2gEbaHR0cDovL3d3dy5kYXJrcmVhZGluZy5jb20vmAKImAXAAgLgAgDqAhovMjQ0MS9EYXJrUmVhZGluZy9ob21lcGFnZfgC-dEekAOkA5gDpAOoAwHgBAGgBhY&amp;num=0&amp;sig=AOD64_2lEDElrK9k44kEDabsSn6xDeaMOQ&amp;client=ca-pub-3676602997119685&amp;adurl=$$&amp;ord=1959024932&amp;ucm=true"></script><img src="https://a01-viq.korrelate.net/a/e/d2i.ads?et=i&amp;ago=212&amp;ao=234&amp;aca=417597&amp;si=UBM%20Media%20%28formally%20CMP%20Media%29&amp;ci=DIA_Solve_netbackup_728x90&amp;kv0=9856182&amp;kv1=22401062&amp;kv2=-7&amp;kv3=-7&amp;kv4=-7&amp;kv5=118&amp;kv6=-7&amp;kv7=B&amp;kv9=-7&amp;kv10=US&amp;pt=i" width="0" height="0" style="position:absolute;left:0px;top:0px;"><a href="http://bs.serving-sys.com/BurstingPipe/BannerRedirect.bs?cn=brd&amp;FlightID=9856182&amp;Page=&amp;sessionid=2701876794286571184&amp;PluID=0&amp;EyeblasterID=22401062&amp;Pos=42034250847636&amp;ord=282357636&amp;sct=1&amp;ncu=$$http://adclick.g.doubleclick.net/aclk?sa=L&amp;ai=BuHjv6NzLVJ-7OMLapgP9sYHgDoyEnvkFAAAAEAEg_NGRITgAWJSkqo2kAWD9uJCB6AOyARN3d3cuZGFya3JlYWRpbmcuY29tugEJZ2ZwX2ltYWdlyAEJ2gEbaHR0cDovL3d3dy5kYXJrcmVhZGluZy5jb20vmAKImAXAAgLgAgDqAhovMjQ0MS9EYXJrUmVhZGluZy9ob21lcGFnZfgC-dEekAOkA5gDpAOoAwHgBAGgBhY&amp;num=0&amp;sig=AOD64_2lEDElrK9k44kEDabsSn6xDeaMOQ&amp;client=ca-pub-3676602997119685&amp;adurl=$$" target="_blank"><img src="http://ds.serving-sys.com/BurstingRes///Site-8130/Type-0/d41193f3-b9f7-411f-94df-4766c78adb83.jpg" width="728" height="90" title="" border="0"></a></div></div></div></div>
